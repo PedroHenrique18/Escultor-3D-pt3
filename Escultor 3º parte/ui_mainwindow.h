@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.13.1
+** Created by: Qt User Interface Compiler version 5.15.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -328,7 +328,7 @@ public:
         spinBox_13->setGeometry(QRect(570, 115, 101, 26));
         plainTextEdit = new DrawManager(centralWidget);
         plainTextEdit->setObjectName(QString::fromUtf8("plainTextEdit"));
-        plainTextEdit->setGeometry(QRect(10, 80, 691, 441));
+        plainTextEdit->setGeometry(QRect(-10, 90, 691, 441));
         plainTextEdit->setMouseTracking(true);
         plainTextEdit->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         MainWindow->setCentralWidget(centralWidget);
@@ -354,51 +354,51 @@ public:
 #if QT_CONFIG(tooltip)
         createNewSculptor->setToolTip(QCoreApplication::translate("MainWindow", "nova escultura", nullptr));
 #endif // QT_CONFIG(tooltip)
-        createNewSculptor->setText(QString());
+        createNewSculptor->setText(QCoreApplication::translate("MainWindow", "nw sculptor", nullptr));
 #if QT_CONFIG(tooltip)
         createNewVoxel->setToolTip(QCoreApplication::translate("MainWindow", "pintar voxel", nullptr));
 #endif // QT_CONFIG(tooltip)
-        createNewVoxel->setText(QString());
+        createNewVoxel->setText(QCoreApplication::translate("MainWindow", "nw voxel", nullptr));
 #if QT_CONFIG(tooltip)
         cutVoxel->setToolTip(QCoreApplication::translate("MainWindow", "remover voxel", nullptr));
 #endif // QT_CONFIG(tooltip)
-        cutVoxel->setText(QString());
+        cutVoxel->setText(QCoreApplication::translate("MainWindow", "cut voxel", nullptr));
 #if QT_CONFIG(tooltip)
         createNewBox->setToolTip(QCoreApplication::translate("MainWindow", "pintar cubo", nullptr));
 #endif // QT_CONFIG(tooltip)
-        createNewBox->setText(QString());
+        createNewBox->setText(QCoreApplication::translate("MainWindow", "nw box", nullptr));
 #if QT_CONFIG(tooltip)
         cutBox->setToolTip(QCoreApplication::translate("MainWindow", "remover cubo", nullptr));
 #endif // QT_CONFIG(tooltip)
-        cutBox->setText(QString());
+        cutBox->setText(QCoreApplication::translate("MainWindow", "cut box", nullptr));
 #if QT_CONFIG(tooltip)
         createNewSphere->setToolTip(QCoreApplication::translate("MainWindow", "pintar esfera", nullptr));
 #endif // QT_CONFIG(tooltip)
-        createNewSphere->setText(QString());
+        createNewSphere->setText(QCoreApplication::translate("MainWindow", "nw sphere", nullptr));
 #if QT_CONFIG(tooltip)
         cutSphere->setToolTip(QCoreApplication::translate("MainWindow", "remover esfera", nullptr));
 #endif // QT_CONFIG(tooltip)
-        cutSphere->setText(QString());
+        cutSphere->setText(QCoreApplication::translate("MainWindow", "cut spher", nullptr));
 #if QT_CONFIG(tooltip)
         createNewEllipsoid->setToolTip(QCoreApplication::translate("MainWindow", "pintar ellipsoid", nullptr));
 #endif // QT_CONFIG(tooltip)
-        createNewEllipsoid->setText(QString());
+        createNewEllipsoid->setText(QCoreApplication::translate("MainWindow", "nw ellip", nullptr));
 #if QT_CONFIG(tooltip)
         cutEllipsoid->setToolTip(QCoreApplication::translate("MainWindow", "remover ellipsoid", nullptr));
 #endif // QT_CONFIG(tooltip)
-        cutEllipsoid->setText(QString());
+        cutEllipsoid->setText(QCoreApplication::translate("MainWindow", "cut ellip", nullptr));
 #if QT_CONFIG(tooltip)
         setPlaneXY->setToolTip(QCoreApplication::translate("MainWindow", "visualizar plano XY", nullptr));
 #endif // QT_CONFIG(tooltip)
-        setPlaneXY->setText(QString());
+        setPlaneXY->setText(QCoreApplication::translate("MainWindow", "xy", nullptr));
 #if QT_CONFIG(tooltip)
         setPlaneXZ->setToolTip(QCoreApplication::translate("MainWindow", "visualizar plano ZX", nullptr));
 #endif // QT_CONFIG(tooltip)
-        setPlaneXZ->setText(QString());
+        setPlaneXZ->setText(QCoreApplication::translate("MainWindow", "xz", nullptr));
 #if QT_CONFIG(tooltip)
         setPlaneYZ->setToolTip(QCoreApplication::translate("MainWindow", "visualizar plano YZ", nullptr));
 #endif // QT_CONFIG(tooltip)
-        setPlaneYZ->setText(QString());
+        setPlaneYZ->setText(QCoreApplication::translate("MainWindow", "yz", nullptr));
         groupBox_4->setTitle(QString());
         groupBox_3->setTitle(QCoreApplication::translate("MainWindow", "Retangulo", nullptr));
         label_6->setText(QCoreApplication::translate("MainWindow", "dimX", nullptr));
